@@ -5,6 +5,7 @@ import { AppController } from './app.controller';
 import { AppService } from './app.service';
 import { join } from 'path';
 import { AppResolver } from './app.resolver';
+import { BookModule } from './book/book.module';
 
 @Module({
   imports: [
@@ -17,6 +18,7 @@ import { AppResolver } from './app.resolver';
         path: join(process.cwd(), 'src/graphql.ts'),
       }
     }),
+    BookModule
   ],
   controllers: [AppController],
   providers: [AppService, AppResolver],
