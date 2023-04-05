@@ -3,8 +3,8 @@ import { Module } from '@nestjs/common';
 import { GraphQLModule } from '@nestjs/graphql';
 import { AppController } from './app.controller';
 import { AppService } from './app.service';
-import { BookModule } from './book/book.module';
 import { join } from 'path';
+import { AppResolver } from './app.resolver';
 
 @Module({
   imports: [
@@ -17,10 +17,8 @@ import { join } from 'path';
         path: join(process.cwd(), 'src/graphql.ts'),
       }
     }),
-
-    BookModule
   ],
   controllers: [AppController],
-  providers: [AppService],
+  providers: [AppService, AppResolver],
 })
 export class AppModule {}

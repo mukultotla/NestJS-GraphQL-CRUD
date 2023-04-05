@@ -1,11 +1,8 @@
-import { ApolloDriver } from '@nestjs/apollo';
 import { Module } from '@nestjs/common';
-import { BookResolver } from './book.resolver';
-
-
+import { BookService } from './book.service';
+import { BookEntity } from './entity/book.entity';
 @Module({
   imports: [],
-  controllers: [],
-  providers: [BookResolver],
+  providers: [BookService, BookEntity],
 })
 export class BookModule {}
