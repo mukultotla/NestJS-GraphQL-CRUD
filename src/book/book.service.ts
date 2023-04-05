@@ -12,8 +12,8 @@ export class BookService {
 
     updateBook(id: number, updateBook: BookEntity): string {
         for(let index = 0; index < this.bookData.length; index++){
-            if(this.bookData[index].id == id){
-                this.updateBook[index] = updateBook;
+            if(this.bookData[index].id === id){
+                this.bookData[index] = updateBook;
             }
         }
         return 'Book updated successfully';
@@ -26,8 +26,8 @@ export class BookService {
 
     findBookById(id: number): BookEntity {
         for(let index = 0; index < this.bookData.length; index++){
-            if(this.bookData[index].id == id){
-                return this.bookData[id];
+            if(this.bookData[index].id === id){
+                return this.bookData[index];
             }
         }
     }
