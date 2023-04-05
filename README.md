@@ -1,3 +1,12 @@
+## Queries and Mutations screenshots
+![image](https://user-images.githubusercontent.com/65943521/230180853-79f297e8-91cd-4759-b267-e1b7a7ad6f35.png)
+![image](https://user-images.githubusercontent.com/65943521/230181170-32bff84b-dcd0-4c07-8953-dca149cbcf92.png)
+![image](https://user-images.githubusercontent.com/65943521/230181241-a0798f7f-142f-48f0-87f7-c0c9e2d37621.png)
+![image](https://user-images.githubusercontent.com/65943521/230181303-f0ca44ea-210d-44c1-accd-59dc0c9df5ec.png)
+![image](https://user-images.githubusercontent.com/65943521/230181375-81650372-29d4-4625-92c6-740f90856644.png)
+
+
+
 <p align="center">
   <a href="http://nestjs.com/" target="blank"><img src="https://nestjs.com/img/logo-small.svg" width="200" alt="Nest Logo" /></a>
 </p>
@@ -57,17 +66,3 @@ $ npm run test:e2e
 # test coverage
 $ npm run test:cov
 ```
-
-## Support
-
-Nest is an MIT-licensed open source project. It can grow thanks to the sponsors and support by the amazing backers. If you'd like to join them, please [read more here](https://docs.nestjs.com/support).
-
-## Stay in touch
-
-- Author - [Kamil Myśliwiec](https://kamilmysliwiec.com)
-- Website - [https://nestjs.com](https://nestjs.com/)
-- Twitter - [@nestframework](https://twitter.com/nestframework)
-
-## License
-
-Nest is [MIT licensed](LICENSE).
